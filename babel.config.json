@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "edge": "100",
+          "chrome": "100"
+        }
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
